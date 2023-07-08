@@ -8,7 +8,11 @@ body{
 }
 header{
     background-color: #FFF8F3;
-    height: 100vh;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left center;
+    background-size: auto, 90px;
+
 }
 nav{
     padding: 20px 100px;
@@ -36,9 +40,26 @@ nav a{
 }
 nav a:hover{
     border-radius: 5px;
-    color: white;
+    color: rgb(91, 104, 218);
 }
-.hire-me-btn{
+.primary-btn{
+    color:white ;
+    border: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#FD6E0A ;
+}
+.banner{
+    margin: 0 50px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    width: 50%;
+}
+.second-primary-btn{
     color:white ;
     border: none;
     padding: 5px 15px;
