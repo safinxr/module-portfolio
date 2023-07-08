@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@200;400;600;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: #FFF8F3;
+    height: 100vh;
+}
+nav{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+
+}
+nav>h3{
+    font-size: 45px;
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    
+}
+nav a:hover{
+    border-radius: 5px;
+    color: white;
+}
+.hire-me-btn{
+    color:white ;
+    border: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#FD6E0A ;
+}
